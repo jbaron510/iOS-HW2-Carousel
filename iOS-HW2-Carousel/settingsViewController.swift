@@ -10,10 +10,28 @@ import UIKit
 
 class settingsViewController: UIViewController {
 
+    @IBOutlet weak var settingsScrollView: UIScrollView!
+    
+    @IBOutlet weak var closeSettingsButton: UIButton!
+    
+    
+    @IBAction func tapCloseButton(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        settingsScrollView.contentSize = CGSize(width: 320, height:695)
+
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -24,6 +24,8 @@ class tutorialViewController: UIViewController, UIScrollViewDelegate {
         
         // Set the current page, so the dots will update
         tutorialPageControl.currentPage = page
+        
+        
     }
     
     

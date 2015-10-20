@@ -190,7 +190,7 @@ class signInViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        signInScrollView.contentSize = CGSize(width: 310, height:186)
+        signInScrollView.contentSize = CGSize(width: 320, height:186)
 
         signInLoadingIndicator .stopAnimating()
         
