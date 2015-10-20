@@ -6,4 +6,4 @@ On click of fields, I am using the transforms from the labs, and I think this is
 
 I think everything else is working.
 
-![Video Walkthrough](iOS-HW2-carousel.gif)
+![Video Walkthrough](iOS-HW2-Carousel.gif)
