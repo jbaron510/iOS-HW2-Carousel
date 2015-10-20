@@ -13,6 +13,13 @@
 		C073341A1BCECE4E00E83B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07334191BCECE4E00E83B82 /* Assets.xcassets */; };
 		C073341D1BCECE4E00E83B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C073341B1BCECE4E00E83B82 /* LaunchScreen.storyboard */; };
 		C07334281BCECE4E00E83B82 /* iOS_HW2_CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07334271BCECE4E00E83B82 /* iOS_HW2_CarouselUITests.swift */; };
+		C07334351BCF237100E83B82 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07334341BCF237100E83B82 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		C07334371BCF240600E83B82 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07334361BCF240600E83B82 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C098F7A61BD191CB00F3DE8E /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098F7A51BD191CB00F3DE8E /* signInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C098F7A91BD595A000F3DE8E /* tutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098F7A81BD595A000F3DE8E /* tutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C098F7AB1BD5CFF200F3DE8E /* timeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098F7AA1BD5CFF200F3DE8E /* timeLineViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C098F7AD1BD5D37800F3DE8E /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098F7AC1BD5D37800F3DE8E /* settingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C098F7AF1BD5D38900F3DE8E /* conversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098F7AE1BD5D38900F3DE8E /* conversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		C07334231BCECE4E00E83B82 /* iOS-HW2-CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-HW2-CarouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07334271BCECE4E00E83B82 /* iOS_HW2_CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_HW2_CarouselUITests.swift; sourceTree = "<group>"; };
 		C07334291BCECE4E00E83B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07334341BCF237100E83B82 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C07334361BCF240600E83B82 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ../IntroViewController.swift; sourceTree = "<group>"; };
+		C098F7A51BD191CB00F3DE8E /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		C098F7A81BD595A000F3DE8E /* tutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tutorialViewController.swift; path = ../tutorialViewController.swift; sourceTree = "<group>"; };
+		C098F7AA1BD5CFF200F3DE8E /* timeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timeLineViewController.swift; sourceTree = "<group>"; };
+		C098F7AC1BD5D37800F3DE8E /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		C098F7AE1BD5D38900F3DE8E /* conversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 		C07334061BCECE4E00E83B82 = {
 			isa = PBXGroup;
 			children = (
+				C07334341BCF237100E83B82 /* Common.swift */,
 				C07334111BCECE4E00E83B82 /* iOS-HW2-Carousel */,
 				C07334261BCECE4E00E83B82 /* iOS-HW2-CarouselUITests */,
 				C07334101BCECE4E00E83B82 /* Products */,
@@ -78,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				C07334121BCECE4E00E83B82 /* AppDelegate.swift */,
-				C07334141BCECE4E00E83B82 /* ViewController.swift */,
 				C07334161BCECE4E00E83B82 /* Main.storyboard */,
+				C098F7A71BD1922900F3DE8E /* ViewControllers */,
 				C07334191BCECE4E00E83B82 /* Assets.xcassets */,
 				C073341B1BCECE4E00E83B82 /* LaunchScreen.storyboard */,
 				C073341E1BCECE4E00E83B82 /* Info.plist */,
@@ -94,6 +109,20 @@
 				C07334291BCECE4E00E83B82 /* Info.plist */,
 			);
 			path = "iOS-HW2-CarouselUITests";
+			sourceTree = "<group>";
+		};
+		C098F7A71BD1922900F3DE8E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C07334141BCECE4E00E83B82 /* ViewController.swift */,
+				C07334361BCF240600E83B82 /* IntroViewController.swift */,
+				C098F7A51BD191CB00F3DE8E /* signInViewController.swift */,
+				C098F7A81BD595A000F3DE8E /* tutorialViewController.swift */,
+				C098F7AA1BD5CFF200F3DE8E /* timeLineViewController.swift */,
+				C098F7AC1BD5D37800F3DE8E /* settingsViewController.swift */,
+				C098F7AE1BD5D38900F3DE8E /* conversationsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C098F7AF1BD5D38900F3DE8E /* conversationsViewController.swift in Sources */,
 				C07334151BCECE4E00E83B82 /* ViewController.swift in Sources */,
+				C098F7AB1BD5CFF200F3DE8E /* timeLineViewController.swift in Sources */,
+				C07334351BCF237100E83B82 /* Common.swift in Sources */,
+				C098F7A91BD595A000F3DE8E /* tutorialViewController.swift in Sources */,
 				C07334131BCECE4E00E83B82 /* AppDelegate.swift in Sources */,
+				C07334371BCF240600E83B82 /* IntroViewController.swift in Sources */,
+				C098F7A61BD191CB00F3DE8E /* signInViewController.swift in Sources */,
+				C098F7AD1BD5D37800F3DE8E /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +421,7 @@
 				C073342E1BCECE4E00E83B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C073342F1BCECE4E00E83B82 /* Build configuration list for PBXNativeTarget "iOS-HW2-CarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +430,7 @@
 				C07334311BCECE4E00E83B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
